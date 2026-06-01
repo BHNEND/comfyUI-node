@@ -1,4 +1,4 @@
-# lklkai_nodes
+# lklkai-comfyUI-node
 
 Personal ComfyUI helper nodes for workflow automation.
 
@@ -8,7 +8,7 @@ Clone this repository into ComfyUI's `custom_nodes` directory:
 
 ```bash
 cd /path/to/ComfyUI/custom_nodes
-git clone https://github.com/BHNEND/comfyUI-node.git
+git clone https://github.com/BHNEND/lklkai-comfyUI-node.git
 ```
 
 Restart ComfyUI, then search for `LK-尺寸转换` or `LK Qwen3 TTS`.
@@ -16,7 +16,7 @@ Restart ComfyUI, then search for `LK-尺寸转换` or `LK Qwen3 TTS`.
 For local development, link this package folder into ComfyUI's `custom_nodes` directory:
 
 ```bash
-ln -s /Users/wangyang/Documents/comfyUI-node /path/to/ComfyUI/custom_nodes/comfyUI-node
+ln -s /Users/wangyang/Documents/comfyUI-node /path/to/ComfyUI/custom_nodes/lklkai-comfyUI-node
 ```
 
 ## Update
@@ -24,7 +24,7 @@ ln -s /Users/wangyang/Documents/comfyUI-node /path/to/ComfyUI/custom_nodes/comfy
 If the repository was installed with `git clone`, update it with:
 
 ```bash
-cd /path/to/ComfyUI/custom_nodes/comfyUI-node
+cd /path/to/ComfyUI/custom_nodes/lklkai-comfyUI-node
 git pull
 ```
 
@@ -90,6 +90,6 @@ These nodes are displayed with the `LK Qwen3 TTS` prefix in ComfyUI. The model l
 Install runtime dependencies in the ComfyUI Python environment:
 
 ```bash
-cd /path/to/ComfyUI/custom_nodes/comfyUI-node
+cd /path/to/ComfyUI/custom_nodes/lklkai-comfyUI-node
 pip install -r requirements-qwen3-tts.txt
 ```

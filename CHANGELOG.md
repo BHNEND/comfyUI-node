@@ -16,6 +16,7 @@
 - Added the `LK-` prefix to Qwen3 TTS node display names while keeping internal class names compatible with imported workflows.
 - Updated Qwen3 TTS node display names to use the spaced `LK Qwen3 TTS` prefix.
 - Split Qwen3 TTS runtime dependencies into `requirements-qwen3-tts.txt` so ComfyUI Manager Git URL installation can stay lightweight.
+- Renamed installation guidance from the generic `comfyUI-node` folder to the branded `lklkai-comfyUI-node` custom node folder.
 
 ## 2026-05-25
 
