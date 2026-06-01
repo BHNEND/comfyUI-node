@@ -13,7 +13,7 @@ cd comfyUI-node
 pip install -r requirements.txt
 ```
 
-Restart ComfyUI, then search for `LK-尺寸转换` or `Qwen3 TTS`.
+Restart ComfyUI, then search for `LK-尺寸转换` or `LK-Qwen3 TTS`.
 
 For local development, link this package folder into ComfyUI's `custom_nodes` directory:
 
@@ -88,7 +88,7 @@ Adds Qwen3 TTS nodes based on the official `qwen-tts` Python package:
 - `Qwen3TTSCustomVoice`
 - `Qwen3TTSVoiceDesign`
 
-The model loader downloads Hugging Face Qwen3 TTS models into `ComfyUI/models/TTS` when `huggingface_hub` is available. The voice clone node keeps the class name and Chinese port names used by imported `Qwen3 TTS 语音克隆` workflows.
+These nodes are displayed with the `LK-Qwen3 TTS` prefix in ComfyUI. The model loader downloads Hugging Face Qwen3 TTS models into `ComfyUI/models/TTS` when `huggingface_hub` is available. The voice clone node keeps the class name and Chinese port names used by imported `Qwen3 TTS 语音克隆` workflows.
 
 Install runtime dependencies in the ComfyUI Python environment:
 

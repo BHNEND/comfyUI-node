@@ -13,6 +13,7 @@
 - Removed the experimental Qwen3 TTS compatibility nodes to keep missing workflow dependencies explicit during development.
 - Added a first-party Qwen3 TTS node set with model loading, voice cloning, reusable voice prompts, custom voice generation, and voice design based on the official `qwen-tts` package.
 - Added repository-level ComfyUI entrypoint, dependency list, and GitHub clone/update instructions for easier online updates.
+- Added the `LK-` prefix to Qwen3 TTS node display names while keeping internal class names compatible with imported workflows.
 
 ## 2026-05-25
 
