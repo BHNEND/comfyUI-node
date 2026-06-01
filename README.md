@@ -9,8 +9,6 @@ Clone this repository into ComfyUI's `custom_nodes` directory:
 ```bash
 cd /path/to/ComfyUI/custom_nodes
 git clone https://github.com/BHNEND/comfyUI-node.git
-cd comfyUI-node
-pip install -r requirements.txt
 ```
 
 Restart ComfyUI, then search for `LK-尺寸转换` or `LK Qwen3 TTS`.
@@ -28,7 +26,6 @@ If the repository was installed with `git clone`, update it with:
 ```bash
 cd /path/to/ComfyUI/custom_nodes/comfyUI-node
 git pull
-pip install -r requirements.txt
 ```
 
 Restart ComfyUI after updating.
@@ -93,5 +90,6 @@ These nodes are displayed with the `LK Qwen3 TTS` prefix in ComfyUI. The model l
 Install runtime dependencies in the ComfyUI Python environment:
 
 ```bash
-pip install qwen-tts soundfile transformers accelerate huggingface_hub numpy
+cd /path/to/ComfyUI/custom_nodes/comfyUI-node
+pip install -r requirements-qwen3-tts.txt
 ```

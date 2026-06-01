@@ -1,7 +1,2 @@
-qwen-tts
-soundfile
-transformers>=4.40.0
-accelerate>=0.27.0
-huggingface_hub
-numpy>=1.24.0
-
+# Keep ComfyUI Manager installation lightweight.
+# Qwen3 TTS runtime dependencies are optional and live in requirements-qwen3-tts.txt.
